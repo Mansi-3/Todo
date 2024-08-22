@@ -1,0 +1,73 @@
+/* Style for the Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* Navbar background color */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 40px; /* Adjust the logo height */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin: 0 1rem; /* Adjust margin between links */
+  font-size: 16px;
+  color: #333; /* Link color */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #007bff; /* Link color on hover */
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar.scrolled {
+  background-color: #f8f9fa; /* Background color when scrolled */
+}
+
+/* Optional: active link style */
+.navbar .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #007bff; /* Active link color */
+}
+
+/* Style for the logo animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card and other styling */
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

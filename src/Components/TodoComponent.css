@@ -1,0 +1,22 @@
+/* TodoComponent.css */
+
+form {
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    margin-right: 0.5rem;
+}
+
+button {
+    margin-left: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
